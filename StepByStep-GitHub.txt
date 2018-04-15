@@ -1,0 +1,35 @@
+GitHub - StepbyStep
+
+1 - Creating acc on website GitHub
+2 - Downloading Git from Git website
+3 - Creating a folder to make it as a repository
+4 - On terminal get into to that folder (I named it GitRepos)
+5 - Once inside of the folder type the command git init.
+6 - After that type the command git init (it initialise a sync process).
+7 - As a test I put this file inside of that folder and again typed git status.
+8- It will show you a message that there is a file untracked (it means not committed yet)
+9 - type now the follow command git add [filename].[filetype] press enter and that’s it!
+10 - I didnt commit yet but almost there… 
+11 - type git status again to check if you were all that files to be committed (it will appear in green)
+12 - If yes just tap git commit
+
+
+Creating new branch
+Branch is a kind of subFolder I can put some files on it, and after that I can merge it to 
+my master folder(branch)
+
+1 - typing git branch <nameOfBranch> On terminal, and it makes a new branch
+2 - typing git status On terminal it will return which branch you are.
+3 - typing git checkout <nameOfBranch> On terminal, it makes you switch location to the named branch
+4 - typing git checkout -b <nameOfBranch> On terminal it creates a new branch and switch to it.
+Checking out - I am in betterExamples Branch, If I changed the branch which I am in using the terminal, I won’t see that message. Because that file is not updated as this one here.
+Now this current file is updated on Master and betterExamples branch thats happened because I merged those
+
+Merging branch
+
+1- Make sure theres no file untracked or to commit
+2 - get inside of brunch you want to be merged
+3 - typing git merge <nameOfBranchToBeMerged>
+After that all files and updates that we have made in that branch will pop up in master branch (in case I did step3 on master branch)
+
+

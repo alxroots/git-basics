@@ -19,6 +19,7 @@ Branch is a kind of subFolder I can put some files on it, and after that I can m
 my master folder(branch)
 
 1 - typing git branch <nameOfBranch> On terminal, and it makes a new branch
+1.1 - If I type only git branch it shows me how branches I do have available.
 2 - typing git status On terminal it will return which branch you are.
 3 - typing git checkout <nameOfBranch> On terminal, it makes you switch location to the named branch
 4 - typing git checkout -b <nameOfBranch> On terminal it creates a new branch and switch to it.
@@ -31,5 +32,12 @@ Merging branch
 2 - get inside of brunch you want to be merged
 3 - typing git merge <nameOfBranchToBeMerged>
 After that all files and updates that we have made in that branch will pop up in master branch (in case I did step3 on master branch)
+
+Managing branch
+
+1 - if I have some branch to merge, I can type the command git branch —-merged or
+git branch —-no-merge and check if there is any branch to merge
+2 - if I am done with the branches I can delete em, using git branch -d <nameofThebranch>
+D (force delete, instead of d)
 
 
